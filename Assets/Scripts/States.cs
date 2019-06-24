@@ -65,6 +65,74 @@ public class States : MonoBehaviour
 
     public bool Next;
 
+    public static bool GetState(string str)
+    {
+        switch (str)
+        {
+            case "A":
+                return State_A;
+            case "B":
+                return State_B;
+            case "C":
+                return State_C;
+            case "D":
+                return State_D;
+            case "E":
+                return State_E;
+            case "F":
+                return State_F;
+            case "G":
+                return State_G;
+            case "H":
+                return State_H;
+            case "I":
+                return State_I;
+            case "J":
+                return State_J;
+            case "K":
+                return State_K;
+            case "L":
+                return State_L;
+            case "M":
+                return State_M;
+            case "N":
+                return State_N;
+            case "O":
+                return State_O;
+            case "P":
+                return State_P;
+            case "Q":
+                return State_Q;
+            case "R":
+                return State_R;
+            case "S":
+                return State_S;
+            case "T":
+                return State_T;
+            case "U":
+                return State_U;
+            case "V":
+                return State_V;
+            case "W":
+                return State_W;
+            case "X":
+                return State_X;
+            case "Y":
+                return State_Y;
+            case "Z":
+                return State_Z;
+            case "Back":
+                return State_Back;
+            case "Next":
+                return State_Next;
+            case "Restart":
+                return State_Restart;
+            default:
+                return false;
+        }
+            
+    }
+
     // Start is called before the first frame update
     void Start()
     {
