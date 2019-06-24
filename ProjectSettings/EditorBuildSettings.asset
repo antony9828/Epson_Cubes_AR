@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Multiplayer/Mul.unity
+    guid: 9db3f782a6d4941db96bc0f19f4f1df8
   m_configObjects: {}

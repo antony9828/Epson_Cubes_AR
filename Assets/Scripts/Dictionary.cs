@@ -18,7 +18,7 @@ public class Dictionary : MonoBehaviour
         words = new string[5] {"apple","cab","smartphone","train","mouse"};
         int randNum = Random.Range(0,words.Length);
         word = words[randNum];
-        word = "DICTIONATY";
+        word = "CABADGE";
         next_count = 0;
     }
 
